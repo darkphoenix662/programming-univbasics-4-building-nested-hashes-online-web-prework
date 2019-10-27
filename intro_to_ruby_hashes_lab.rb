@@ -15,8 +15,8 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
+  binding.pry
   monopoly = {
-    binding.pry
     :railroads => {
       :pieces => (4),
       :rent_in_dollars => {
